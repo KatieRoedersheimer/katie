@@ -3,7 +3,6 @@
 }
 
 section {
-    height:500px;
     padding-top:50px;
     padding-bottom:50px;
     overflow:auto;
@@ -18,12 +17,16 @@ section {
 }
   
 .bg-2 {
+    width: 100vw;
+    height: 75vh;
 	background: url('../images/tree.jpeg') no-repeat top center fixed;
     color:#fff;
     background-size:cover;
 }
 
 .bg-3 {
+    width: 100vw;
+    height: 75vh;
 	background: url('../images/lake.jpeg') no-repeat bottom center fixed;
     color:#fff;
     background-size:cover;
@@ -63,6 +66,7 @@ section {
     margin-right: auto;
     margin-top: 100px;
     position: relative;
+    
 }
 #txtUserMessage {
     width: 375px;
@@ -94,6 +98,8 @@ section {
     width: 250px;
     height: 45px;
 }
+
+
 
 /* social media css */
 

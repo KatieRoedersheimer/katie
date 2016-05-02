@@ -1,0 +1,68 @@
+body {
+    width: auto;
+    height: auto;
+    background-position: center;
+    background-color: #212121;
+}
+
+#keys {
+    width: 145px;
+/*    height: 700px; not working */
+    height: 173px;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 80px;
+    margin-left: 2px;
+    background: rgba(0,0,0,0);
+    border: none;
+}
+
+#keys:hover {
+    background: rgba(225,225,225,0.5);
+    border-radius: 10px;
+}
+
+#calculator {
+    height: 1121px;
+    width: 600px;
+    background: url(images/background.png);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 25px;
+    border: none;
+}
+
+#calculator #display {
+    width: 95%;
+    height: 250px;
+    position: relative;
+    background: rgba(0,0,0,0);
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 130px;
+    font-weight: 300;
+    color: aliceblue;
+    text-align: right;
+}
+
+#equal {
+    width: 145px;
+/*    height: 700px; not working */
+    height: 173px;
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-weight: 400;
+    font-size: 80px;
+    margin-left: 2px;
+    background: rgba(0,0,0,0);
+    border: none;
+}
+
+#equal:hover {
+    background: rgba(225,225,225,0.5);
+    border-radius: 10px;
+    color: lightseagreen;
+    border: none;
+}

@@ -10,11 +10,14 @@ section {
 .name {
     text-transform: uppercase;
     font-family: Lato;
+    size: 30px;
 }
 
 .lead{
     font-family: Merriweather;
+    size: 24px;
 }
+
 .bg-1 {
     width: 100vw;
     height: 100vh;

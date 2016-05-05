@@ -20,6 +20,12 @@ section {
     font-family: Merriweather;
     size: 24px;
 }
+.work{
+    text-align: center;
+}
+.title{
+    font-family: Lato;
+}
 
 .bg-1 {
     width: 100vw;
@@ -72,44 +78,44 @@ section {
 }
 
 #divResults{
-    background-color: rgba(34, 34, 34, 0.7);
-    height: 500px;
-    width: 1000px;
+    background-color: rgba(227, 227, 227, 1);
+    height: 600px;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
+    margin-top: 50px;
     position: relative;
     
 }
 #txtUserMessage {
     width: 375px;
-    height: 250px;
+    height: 325px;
     text-align: center;
-    margin-top: 24px;
+    margin-top: 5px;
 }
 
 
 #txtFirstName {
-    width: 250px;
-    height: 45px;
+    width: 450px;
+    height: 65px;
     margin-top: 100px;
 
 }
 
 #txtLastName {
-    width: 250px;
-    height: 45px;
+    width: 450px;
+    height: 65px;
 
 }
 
 #txtEmail {
-    width: 250px;
-    height: 45px;
+    width: 450px;
+    height: 65px;
 }
 
 #txtmobile{
-    width: 250px;
-    height: 45px;
+    width: 450px;
+    height: 65px;
 }
 
 

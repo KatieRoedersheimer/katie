@@ -33,6 +33,9 @@ section {
 #imac{
     height: 270px;
 }
+.panel{
+    text-align: center;
+}
 
 .bg-1 {
     width: 100vw;

@@ -26,6 +26,13 @@ section {
 .title{
     font-family: Lato;
 }
+#logos{
+    width: 260px;
+    height: 260px;
+}
+#imac{
+    height: 270px;
+}
 
 .bg-1 {
     width: 100vw;

@@ -8,23 +8,22 @@ section {
     overflow:auto;
 }
 .name {
-    text-transform: uppercase;
-    font-family: Lato;
+    font-family: Garamond;
     size: 30px;
 }
 .motto{
-    font-family: Lato;
+    font-family: Garamond;
 }
 
 .lead{
-    font-family: Merriweather;
+    font-family: Garamond;
     size: 24px;
 }
 .work{
     text-align: center;
 }
 .title{
-    font-family: Lato;
+    font-family: Garamond;
 }
 #logos{
     width: 260px;
@@ -97,38 +96,55 @@ section {
     position: relative;
     
 }
-#txtUserMessage {
-    width: 375px;
-    height: 325px;
-    text-align: center;
-    margin-top: 5px;
-}
-
-
-#txtFirstName {
-    width: 450px;
-    height: 65px;
-    margin-top: 100px;
-
-}
-
-#txtLastName {
-    width: 450px;
-    height: 65px;
-
-}
-
-#txtEmail {
-    width: 450px;
-    height: 65px;
-}
-
-#txtmobile{
-    width: 450px;
-    height: 65px;
-}
-
-
 
 /* social media css */
+
+
+/*panel heading*/
+h1 {
+    text-align:center;
+    font-size: 28px;
+    font-family: 'Garamond';
+}
+/*panel align center*/
+.col-centered{
+    float: none;
+    margin: 0 auto;
+    padding-top:5px;
+}
+/*property for the bootstrap panel*/
+.panel  {
+-webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.panel-default > .panel-heading {
+  color: #000 !important;
+  background: #80bfff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #80BFFE, #80CCE7); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #80BFFE, #80CCE7); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #80BFFE, #80CCE7); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #80BFFE, #80CCE7); /* Standard syntax */
+  border-color: #99ccff !important;
+  height:80px;
+}
+
+/*property for the HTML input placeholder*/
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; } /* FF 4-18 */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus::-moz-placeholder { color:transparent; } /* FF 19+ */
+input:focus:-ms-input-placeholder { color:transparent; } /* IE 10+ */
+
+/*property for reset button*/
+button[type="reset"]    {
+    background-color:transparent;
+    border:1px solid black;
+}
+
+/*Glyphicon color*/
+.blue   {
+    color: #80bfff;
+}
 

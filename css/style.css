@@ -9,7 +9,7 @@ section {
 }
 .name {
     font-family: Garamond;
-    size: 30px;
+    font-size: 50px;
 }
 .motto{
     font-family: Garamond;
@@ -17,7 +17,7 @@ section {
 
 .lead{
     font-family: Garamond;
-    size: 24px;
+    font-size: 25px;
 }
 .work{
     text-align: center;

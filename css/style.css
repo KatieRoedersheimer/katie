@@ -40,6 +40,10 @@ section {
     font-size: 20px;
     font-family: Garamond;
 }
+.row{
+    margin-right: auto;
+    margin-left: auto;
+}
 
 .bg-1 {
     width: 100vw;

@@ -1,3 +1,8 @@
+@font-face{
+    font-family: "aww1";
+    src: url('../fonts/fogtwo/fogtwoNo5.ttf')
+}
+
 .divider {
     height:50px;
 }
@@ -8,7 +13,7 @@ section {
     overflow:auto;
 }
 .name {
-    font-family: Garamond;
+    font-family: "aww1";
     font-size: 50px;
 }
 .motto{
@@ -17,7 +22,7 @@ section {
 }
 
 .lead{
-    font-family: Garamond;
+    font-family: "aww1";
     size: 24px;
 }
 .work{
